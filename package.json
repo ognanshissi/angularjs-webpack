@@ -1,0 +1,42 @@
+{
+  "name": "ognanshissi/angular-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack-dev-server --content-base app --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development"
+  },
+  "author": "Ambroise Bazie",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.18",
+    "angular": "^1.7.0",
+    "angular-animate": "^1.7.0",
+    "angular-aria": "^1.7.0",
+    "angular-cookies": "^1.7.0",
+    "angular-material": "^1.1.9",
+    "angular-messages": "^1.7.0",
+    "angular-resource": "^1.7.0",
+    "angular-route": "^1.7.0",
+    "node-sass": "^4.9.0"
+  }
+}
