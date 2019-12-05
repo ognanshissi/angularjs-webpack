@@ -1,2 +1,2 @@
 node: package.json
-    npm i
+    npm i -y && yarn install

@@ -9,7 +9,7 @@ import 'angular-material';
 import '@uirouter/angularjs';
 
 import Config from './config'
-import RegisterDirectives  from './directives'
+import RegisterDirectives from './directives'
 import RegisterComponents from './components'
 // material scss
 // require('angular-material/angular-material.scss');
@@ -22,7 +22,7 @@ import RegisterComponents from './components'
 
 
 // modules
-var ngModule = angular.module('app', ["ngMaterial", "ngRoute", "ngCookies"]).run(function(){
+var ngModule = angular.module('app', ["ngMaterial", "ngRoute", "ngCookies"]).run(function () {
     console.log('App is running')
 });
 

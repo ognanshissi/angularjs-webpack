@@ -6,7 +6,7 @@ AngularJS project setting with  ``webpack``, This boilerplate include ``Material
 
 Downlaod the project and go to the project using a ``Terminal`` inside the root of the project run :
 ```console
-    $ npm install
+$ npm install
 ```
 This command will install all dependencies.
 

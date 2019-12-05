@@ -4,19 +4,20 @@ export default ngModule => {
     ngModule.directive('greeting', () => {
             return {
                 restrict: 'E',
-                scope: {},
+                scope: {"state": 1},
                 template: require('./greeting.html'),
                 controllerAs: 'vm',
                 /*
                 @ngInject
                  */
                 controller: function ($location) {
-                    var vm = this;
+                    let vm = this;
                     vm.greeting = 'Hello webpack'
-                    var count = 0;
+                    let count = 0;
+                    console.log(vm)
                     vm.getClick = () => {
                         count += 1
-                        console.log('hello world')
+                        console.log($location.$$port)
                     }
                 }
             }
