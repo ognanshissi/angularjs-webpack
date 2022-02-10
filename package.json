@@ -37,7 +37,7 @@
     "angular-messages": "^1.7.0",
     "angular-resource": "^1.7.0",
     "angular-route": "^1.7.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0"
   }
 }
